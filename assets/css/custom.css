@@ -1,0 +1,25 @@
+body{
+	margin-top: 60px;
+}
+
+.sentence-division{
+	margin-top: 15px;
+}
+
+.sentence{
+	width: 100%;
+	height: 500px;
+}
+
+.hero-unit{
+	width: 100%;
+	height: 500px;
+}
+
+.body-container{
+	width: 1170px;
+}
+
+ul.word-list{
+	list-style: none;
+}
