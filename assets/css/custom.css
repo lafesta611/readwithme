@@ -9,11 +9,13 @@ body{
 .sentence{
 	width: 100%;
 	height: 500px;
+	font-size: 16px;
 }
 
 .hero-unit{
 	width: 100%;
-	height: 500px;
+	padding-top: 30px;
+	padding-bottom: 30px;
 }
 
 .body-container{
@@ -22,4 +24,9 @@ body{
 
 ul.word-list{
 	list-style: none;
+	font-size: 16px;
+}
+
+.hero-unit li{
+	line-height: 25px;
 }
