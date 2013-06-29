@@ -2,22 +2,24 @@ body{
 	margin-top: 60px;
 }
 
-.sentence-division{
+#sentence-division{
 	margin-top: 15px;
 }
 
-.sentence{
+.wordlist-division{
+	margin-top: 15px;	
+}
+
+#sentence{
 	width: 100%;
 	height: 500px;
 	font-size: 16px;
 }
 
 .hero-unit{
-	width: 100%;
 	padding-top: 30px;
 	padding-bottom: 30px;
 }
-
 .body-container{
 	width: 1170px;
 }
@@ -30,3 +32,11 @@ ul.word-list{
 .hero-unit li{
 	line-height: 25px;
 }
+
+iframe.dic-iframe{
+	width: 100%;
+}
+
+/*#word:hover{
+	color: #cfcfcf;
+}*/
