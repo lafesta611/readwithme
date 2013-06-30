@@ -154,11 +154,12 @@ var AppView = Backbone.View.extend({
 		var savedWords = _.filter(this.collection.models, function(word){return word.get('saved') === true});
 		console.log(savedWords.length);
 		if(savedWords.length > 0){
-			var btnView = new ButtonView();
-			console.log(btnView.render().el);
-			this.$button.append(btnView.render().el);	
+			this.$button.removeClass('disappear');
+			// var btnView = new ButtonView();
+			// console.log(btnView.render().el);
+			// this.$button.append(btnView.render().el);	
 		}else{
-			this.$button.empty();
+			this.$button.addClass('disappear');
 			console.log(this.$button);
 		}
 	},

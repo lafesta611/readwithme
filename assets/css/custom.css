@@ -40,3 +40,7 @@ iframe.dic-iframe{
 /*#word:hover{
 	color: #cfcfcf;
 }*/
+
+.disappear{
+	display: none;
+}
