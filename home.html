@@ -6,18 +6,33 @@
 	<link href="assets/css/custom.css" rel="stylesheet" media="screen">
 </head>
 
-<body>
+<body style="margin-top:80px;">
+	<!--초기에 tutorial 화면에 불투명하게 만들어줌-->
+
+	<!--tutorial image가 맨처음에 뜨게 하려면 body 바로 밑에 넣어줌-->
+	
+	<div class="overlay-mask">
+		<div class="tutorial" style="background:url(assets/image/new-tutorial.png); width:1600px; height:900px; position:absolute;"></div>
+		<!--
+		<div class="tutorial1" style="background:url(assets/image/tutorial1.png); width:260px; height:150px; position:absolute; left:75%;"></div>
+		<div class="tutorial2" style="background:url(assets/image/tutorial2.png); width:193px; height:69px; position:absolute; left:50%; top:50%;"></div>
+		-->
+	</div>
+	
+
 	<div class="navbar navbar-inverse navbar-fixed-top">
-		<div class="navbar-inner">
-			<div class="container">
-				<a class="brand" href="#">Read with Me</a>
+		<div class="navbar-inner realbar">
+			<!--navbar-inner === 로그인이 들어가는 바-->
+			<!--realbar === 까맣게 보이는 이미지 바-->
+			<div class="container" style="width:1170px;">
+				<img src="assets/image/new-title.jpg" style="height:70px;"  class="pull-left">
 			</div>
 		</div>
 	</div>
 	<!--맨 위의 Read with Me 헤더 부분을 만들어줌
 		navbar,navbar-inverse,navbar-fiexed-top 으로 속성 지정
 		navbar-inner로 보여줌-->
-	<div class="container body-container" id="app-view">
+	<div class="container" id="app-view" style="width:1170px;">
 		<div class="row-fluid">
 			<div class="span6" id="sentence-division">
 				<textarea id="sentence">
@@ -35,7 +50,7 @@ This allows us to put all of our contact objects into a unified list. If the obj
 			<!--ul클래스안에 li속성을 사용해서 list형식사용-->
 			<div class="span6 wordlist-division">
 				<div class="save-btn disappear">
-					<div id="save-btn" style="position:absolute; right:20px; top:36px;">
+					<div id="save-btn" style="position:absolute; right:20px; top:71px;">
 						<div id="save-btn"><img src="assets/image/label.png" id="imgSave"></div>
 					</div>
 				</div>
